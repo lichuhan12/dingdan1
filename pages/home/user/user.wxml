@@ -1,2 +1,14 @@
 <!--pages/user/user.wxml-->
-<text>pages/user/user.wxml</text>
+<view >
+   <view style='text-align: center'>
+      <image class='portrait' src='../../../img/9c4a965852584ea49803ea027fc281d3!400x400.jpeg'></image>
+      <view>
+          <text>姑娘的温柔む．</text>
+          <text>女</text>
+      </view>
+   </view>
+   <view style='padding:20rpx'>
+     <text> 收藏列表</text>
+      <image style='width:30rpx;height:30rpx' src='../../../img/1_35.gif'></image>
+   </view>
+</view>
