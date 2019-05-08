@@ -1,9 +1,101 @@
 <!--pages/home/home.wxml-->
 <view id='box'>
   <view class='top'>
-    <text>北京</text><image src='../../img/3_03.png'></image>
+    <text style='font-weight:700' bindtap='fnChange'>北京</text><image src='../../img/3_03.png'></image>
     <view class='top_service'>
     <icon type='search' size='15' color='#000'></icon>
     <input type='text' placeholder='输入商户名、地点、找优惠'></input></view>
+    <image src='../../img/12.png'></image><view class='top_user'>我的</view>
+  </view>
+  <view class='home_nav'>
+    <view class='nav_list'>
+      <view class='list'>
+        <image src='../../img/3_03.gif'></image>
+        <view>美食</view>
+      </view>
+      <view class='list'>
+        <image src='../../img/3_05.gif'></image>
+        <view>外卖</view>
+      </view>
+      <view class='list'>
+        <image src='../../img/3_07.gif'></image>
+        <view>休闲娱乐</view>
+      </view>
+      <view class='list'>
+        <image src='../../img/3_09.gif'></image>
+        <view>KTV</view>
+      </view>
+      <view class='list'>
+        <image src='../../img/3_11.gif'></image>
+        <view>景点/门票</view>
+      </view>
+    </view>
+    <view class='nav_list'>
+      <view class='list'>
+        <image src='../../img/3_18.gif'></image>
+        <view>酒店</view>
+      </view>
+      <view class='list'>
+        <image src='../../img/3_19.gif'></image>
+        <view>电影/演出</view>
+      </view>
+      <view class='list'>
+        <image src='../../img/3_20.gif'></image>
+        <view>足疗/按摩</view>
+      </view>
+      <view class='list'>
+        <image src='../../img/3_21.gif'></image>
+        <view>丽人/美发</view>
+      </view>
+      <view class='list'>
+        <image src='../../img/3_22.gif'></image>
+        <view>购物/商场</view>
+      </view>
+    </view>
+    <view class='nav_list'>
+      <view class='list'>
+        <image src='../../img/3_28.gif'></image>
+        <view>到家服务</view>
+      </view>
+      <view class='list'>
+        <image src='../../img/4_03.png'></image>
+        <view>宠物</view>
+      </view>
+      <view class='list'>
+        <image src='../../img/4_05.png'></image>
+        <view>民宿/公寓</view>
+      </view>
+      <view class='list'>
+        <image src='../../img/4_07.png'></image>
+        <view>亲子</view>
+      </view>
+      <view class='list'>
+        <image src='../../img/4_09.png'></image>
+        <view>全部</view>
+      </view>
+    </view>
+  </view>
+  <view class='hot_nav'>
+    <view class='hot_nav_list'>
+      <image src='../../img/3_34.gif'></image><text>美食热榜</text>
+    </view>
+    <view class='hot_nav_list'>
+      <image src='../../img/3_31.gif'></image><text>今天吃啥</text>
+    </view>
+  </view>
+  <view class='questions_img'>
+    <image src='../../img/3_39.gif'></image>
+  </view>
+  <view class='like_list'>
+    <view class='like_list_text'>猜你喜欢</view>
+    <view class='like_list_g' wx:for="{{list}}" wx:key="{{index}}">
+      <view class='img'><image src='../../img/1_03.gif'></image></view>
+      <view class='like_list_cont'>
+      <!-- <image src='../../img/2.png'></image> -->
+        <view class='like_list_title'>{{item.title}}<text>{{item.distance}}m</text></view>
+        <view class='like_list_comm'>{{item.label}}</view>
+        <view class='like_list_price'><text>￥{{item.lat}}</text><text>￥{{item.lng}}</text><text>已售{{item.score}}</text></view>
+      </view>
+    </view>
   </view>
 </view>

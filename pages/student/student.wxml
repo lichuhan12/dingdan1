@@ -1,2 +1,56 @@
 <!--pages/student/student.wxml-->
-<text>pages/student/student.wxml</text>
+<view id='student_box'>
+  <view class='student_top'>
+    <view>北京<image src='../../img/5_06.png'></image><image src='../../img/5_03.png'></image></view>
+  </view>
+  <view class='student_nav'>
+    <view class='nav_list'>
+      <image src='../../img/3_03.gif'></image>
+      <view>美食</view>
+    </view>
+    <view class='nav_list'>
+      <image src='../../img/3_03.gif'></image>
+      <view>美食</view>
+    </view>
+    <view class='nav_list'>
+      <image src='../../img/3_03.gif'></image>
+      <view>美食</view>
+    </view>
+    <view class='nav_list'>
+      <image src='../../img/3_03.gif'></image>
+      <view>美食</view>
+    </view>
+    <view class='nav_list'>
+      <image src='../../img/3_03.gif'></image>
+      <view>美食</view>
+    </view>
+  </view>
+  <view class='quess_like'>
+    <view class='quess_like_text'>猜你喜欢</view>
+    <view class='quess_like_list'>
+      <view class='quess_like_img'><image src='../../img/1_03.gif'></image></view>
+      <view class='quess_like_list_g'>
+        <view class='quess_like_listg_title'>大腕居（万柳店）</view>
+        <view class='quess_like_list_g_user'><image src='../../img/5_11.png'></image><text>￥81/人</text></view>
+        <view class='quess_like_list_g_fig'><text>草桥</text><text>北京菜</text></view>
+        <view class='quess_like_list_g_nav'>
+          <view class='quess_like_list_g_nav_s'>古色古香</view>
+          <view class='quess_like_list_g_nav_s'>古色古香</view>
+        </view>
+      </view>
+    </view>
+    <view class='quess_like_list'>
+      <view class='quess_like_img'><image src='../../img/1_03.gif'></image></view>
+      <view class='quess_like_list_g'>
+        <view class='quess_like_listg_title'>大腕居（万柳店）</view>
+        <view class='quess_like_list_g_user'><image src='../../img/5_11.png'></image><text>￥81/人</text></view>
+        <view class='quess_like_list_g_fig'><text>草桥</text><text>北京菜</text></view>
+        <view class='quess_like_list_g_nav'>
+          <view class='quess_like_list_g_nav_s'>古色古香</view>
+          <view class='quess_like_list_g_nav_s'>古色古香</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='more_cont'>正在加载更多内容···</view>
+</view>
