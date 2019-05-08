@@ -1,0 +1,41 @@
+/* pages/home/home.wxss */
+#box{
+  width: 100%;
+  height: 100%;
+}
+.top{
+  width: 100%;
+  height: 100rpx;
+  background: red;
+  line-height: 100rpx;
+  box-sizing: border-box;
+  padding: 0 20rpx;
+  position: relative;
+}
+.top>image:first-of-type{
+  width: 30rpx;
+  height: 15rpx;
+  vertical-align: middle;
+}
+.top_service{
+  width: 60%;
+  height: 70rpx;
+  background: #f4f4f4;
+  border-radius: 50rpx;
+  position: absolute;
+  left: 50%;
+  margin-left: -30%;
+  top: 50%;
+  margin-top: -35rpx;
+  text-align: center;
+}
+.top_service>icon{
+  position: absolute;
+  left: 30rpx;
+  top: 8rpx;
+}
+.top_service>input{
+  font-size: 30rpx;
+  margin-top: 10rpx;
+  margin-left: 30rpx;
+}

@@ -1,0 +1,9 @@
+<!--pages/home/home.wxml-->
+<view id='box'>
+  <view class='top'>
+    <text>北京</text><image src='../../img/3_03.png'></image>
+    <view class='top_service'>
+    <icon type='search' size='15' color='#000'></icon>
+    <input type='text' placeholder='输入商户名、地点、找优惠'></input></view>
+  </view>
+</view>
