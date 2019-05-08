@@ -1,1 +1,125 @@
 /* pages/details/details.wxss */
+.de{
+  background: #f6f6f6;
+}
+.head{
+  background: #fff;
+  padding-bottom: 25rpx;
+  display: flex;
+  border-bottom: 1rpx solid #8d8a8a;
+}
+.head .img{
+  flex: 1;
+  width: 100%;
+  height: 260rpx
+}
+.head .word{
+  flex: 2;
+}
+.head .word view{
+  margin-top: 23rpx;
+  margin-left: 40rpx;
+  font-size: 26rpx
+}
+.head .word .name{
+  font-size: 35rpx;
+  font-weight: bold
+}
+.evaluate{
+  color: #777777
+}
+.head .word .score{
+  width: 140rpx;
+  height: 30rpx
+}
+.te{
+  display: inline-block;
+  margin-right: 55rpx;
+}
+.tee{
+  display: inline-block;
+}
+.te image,.tee image{
+  width: 30rpx;
+  height: 30rpx
+}
+.address{
+  background: #fff;
+  margin-top: 20rpx;
+  display: flex;
+  border-top: 1rpx solid #8d8a8a;
+  border-bottom: 1rpx solid #8d8a8a;
+  padding-top: 20rpx;
+  padding-bottom: 60rpx
+}
+.address .biao{
+   width:40rpx;
+  margin-right: 20rpx
+}
+.address .biao image{
+  width:35rpx;
+  height:45rpx;
+}
+.address .dizhi{
+  width: 570rpx;
+  height: 100rpx;
+  font-size: 35rpx
+}
+.tel{
+ width:70rpx;
+}
+.tel image{
+  width:50rpx;
+  height:50rpx;
+  margin-top: 30rpx
+}
+.bang{
+  background: #fff;
+  margin-top: 20rpx;
+  display: flex;
+  padding: 20rpx
+}
+.bang image{
+  margin-right: 20rpx
+}
+.zi{
+  margin-right: 140rpx
+}
+.group{
+  width: 100%;
+  display: flex;
+  background: #fff;
+  font-size: 35rpx;
+  padding: 20rpx
+}
+.food{
+  width: 670rpx;
+  display: flex;
+  margin-top: 20rpx;
+  margin-left: 20rpx
+}
+.food image{
+  width: 130rpx;
+  height: 130rpx;
+}
+.nnam{
+  padding-top: 13rpx
+}
+.foodn{
+  width: 400rpx;
+  padding-left: 20rpx
+}
+.foot{
+  width: 100%;
+  display: flex;
+  background: #fff
+}
+.foot view{
+  flex: 1;
+  text-align: center
+}
+.foot view image{
+  width: 50rpx;
+  height: 50rpx;
+  margin-top: 10rpx
+}

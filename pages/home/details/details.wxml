@@ -1,2 +1,77 @@
 <!--pages/details/details.wxml-->
-<text>pages/details/details.wxml</text>
+<view class='de'>
+  <view style=' background: #fff; padding:20rpx;box-sizing: border-box;'>
+    <view class='head'>
+       <image class='img' src='../../../img/1_03.gif'></image>
+       <view class='word'>
+          <view class='name'> HaveFun!有饭（西二旗店）</view>
+          <view><image class='score' src='../../../img/1_33.gif'></image><text>559</text>条￥<text>41</text>/人</view>
+          <view class='evaluate'>口味:<text>7.8</text>环境:<text>8.3</text>服务:<text>8.1</text></view>
+          <view class='evaluate'><text>上地</text><text></text>快餐简餐</view>
+       </view>
+  </view>
+  <view style='margin-top:20rpx;background: #fff;'>
+    <view class='te'><image  src='../../../img/1_06.gif'></image><text>营业至21.00</text></view>
+    <view class='te'><image  src='../../../img/1_08.gif'></image><text>WIFI</text></view>
+    <view class='te'><image  src='../../../img/1_10.gif'></image><text>停车场</text></view>
+    <view class='tee'><image src='../../../img/1_35.gif'></image></view>
+  </view>
+  <view class='address'>
+     <view class='biao'><image src='../../../img/1_15.gif'></image></view>
+     <view class='dizhi'>
+        <view>上地十街辉煌国际西6号楼底商1-2楼（地铁13号线西二旗A口西500米）</view>
+        <view style='color:#777777'>距您步行60米，需要1分钟</view>
+     </view>
+     <view class='tel'><image  src='../../../img/1_19.gif'></image></view>
+  </view>
+  </view>
+  <view style='width:100%;'></view>
+  <view class='bang'>
+     <image style='width:50rpx;height:50rpx' src='../../../img/1_22.gif'></image>
+     <view class='zi'><text>上地小吃快餐热门榜</text>第<text>1</text>名</view>
+     <image style='width:30rpx;height:30rpx;margin-top:18rpx' src='../../../img/1_35.gif'></image>
+  </view>
+  <view style='width:100%;height:20rpx;'></view>
+  <view class='group'>
+    <image style='width:50rpx;height:50rpx'  src='../../../img/1_25.gif'></image>
+    <view>
+        <view class='food'>
+          <image src='../../../img/1_03.gif'></image>
+            <view style='display:flex'>
+              <view class='foodn'>
+                <view class='nnam'>单人商务套餐提供免WIFI</view>
+                <view style='margin-top:10rpx'>
+                  <text style='color:#ff6633;font-size: 50rpx'>￥35</text>
+                  <text style='color:#777777;font-size: 30rpx;text-decoration:line-through;'>￥57</text>
+                </view>
+              </view>
+              <view style='font-size: 30rpx;color:#777777;padding-top: 13rpx'>已售28</view>
+            </view>
+        </view>
+        <view class='food'>
+          <image src='../../../img/1_03.gif'></image>
+            <view style='display:flex'>
+              <view class='foodn'>
+                <view class='nnam'>单人商务套餐提供免WIFI</view>
+                <view style='margin-top:10rpx'>
+                  <text style='color:#ff6633;font-size: 50rpx'>￥35</text>
+                  <text style='color:#777777;font-size: 30rpx;text-decoration:line-through;'>￥57</text>
+                </view>
+              </view>
+              <view style='font-size: 30rpx;color:#777777;padding-top: 13rpx'>已售28</view>
+            </view>
+        </view>
+        <view style='text-align: center;'>查看其他4个团购</view>
+    </view>
+  </view>
+   <view class='foot'>
+        <view>
+           <image src='../../../img/1_28.gif'></image>
+           <text>收藏</text>
+        </view>
+        <view>
+           <image src='../../../img/1_31.gif'></image>
+           <text>写点评</text>
+        </view>
+    </view>
+</view>
